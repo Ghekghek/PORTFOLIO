@@ -15,35 +15,37 @@ console.log(lastvideo);
     
   
 
-gsap.to(firstvideo, {
+// gsap.to(firstvideo, {
 
-  x: 500,
+//   x: 500,
 
-  duration: 3,
- scrollTrigger:{
-  start: "top 25%",
-  trigger:firstvideo,
-  markers: true,
-  scrub: 1,
- }
+//   duration: 3,
+ 
+//  scrollTrigger:{
+//   start: "top 80%",
+//   end:"top 50%",
+//   trigger:firstvideo,
+//   markers: true,
+//   scrub: 1,
+//  }
  
 
-})
+// })
 
 
 
-gsap.to(lastvideo, {
-  x: 900,
+// gsap.to(lastvideo, {
+//   x: 900,
 
-  duration: 3,
- scrollTrigger:{
-  start: "top 50%",
-  trigger:lastvideo,
-  markers: true,
-  scrub: 1,
- }
+//   duration: 3,
+//  scrollTrigger:{
+//   start: "top 50%",
+//   trigger:lastvideo,
+//   markers: true,
+//   scrub: 1,
+//  }
  
-})
+// })
 
 
 

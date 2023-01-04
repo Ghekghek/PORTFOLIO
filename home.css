@@ -123,19 +123,21 @@ align-items: center;
 .box-wrapper {
   display: flex;
 width: min(40em,90%);
-  height: 50em;
+height: 40em;
   position: relative;
   align-items: center;
   justify-content: center;
+
+
 }
 .box {
-
-  width: 50%;
+width: 45%;
+  max-width: 400px;
   padding: .75em;
   border-radius: 2em;
-  
+height: 90%;
   padding-top:0 ;
- 
+
   position: relative;
 
   padding-bottom: 0;
